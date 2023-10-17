@@ -5,12 +5,13 @@
  * @a: The first integer to be swapped.
  * @b: The second integer to be swapped.
  *
- * Return: nothing
+ * Return: Nothing
  */
-
 void swap_int(int *a, int *b)
 {
-    int temp = *a;
-    *a = *b;
-    *b = temp; /* You should use "temp" instead of "m" here */
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp; /* You should use "temp" instead of "m" here */
 }
