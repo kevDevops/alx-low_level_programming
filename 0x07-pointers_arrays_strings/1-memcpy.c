@@ -1,22 +1,23 @@
 #include "main.h"
 
-
 /**
- * _memcpy - Entry point
- * @dest: input
- * @src: input
- * *@n:  input
- *
- * Return: Always 0 (success)
- */
-
+  * _memcpy - main function prototype
+  *
+  * @src: Source parameter
+  *
+  * @dest: Destination parameter
+  *
+  * @n: Function parameter
+  *
+  * Return: Copied memory
+  */
 char *_memcpy(char *dest, char *src, unsigned int n)
-{  
-	unsigned int i;
+{
+	unsigned int k;
 
-	for (i = 0; i < n; r++)
-
-		dest[i] = src[i];
-	
+	for (k = 0; k < n; k++)
+	{
+	dest[k] = src[k];
+	}
 	return (dest);
 }
