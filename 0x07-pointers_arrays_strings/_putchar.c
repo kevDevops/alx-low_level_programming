@@ -1,19 +1,13 @@
-<<<<<<< HEAD
-=======
-_Putchar.c
-
->>>>>>> 0050995dd2eab6b45197d701d1edc462ce6ab49c
-#include "main.h"
 #include <unistd.h>
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
+   * _putchar - writes the character c to stdout
+    * @c: The character to print
+     *
+      * Return: On success 1.
+       * On error, -1 is returned, and errno is set appropriately.
+        */
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+		return (write(1, &c, 1));
 }
